@@ -4,16 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/all.css">
+    <link rel="stylesheet" href="Plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Plugins/fontawesome/css/all.min.css">
     <title>Health Track</title>
 </head>
 <body>
     <div class="login">
         <div class="login-form">
-            
+           <div class="login-form-wrapper">
+                <div class="login-title">
+                    <h2>Log In</h2>
+                    <a href="#">Cadastrar</a>
+                </div>
+                <form>
+                    <div class="mb-3">
+                      <label for="Email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="Senha" class="form-label">Senha</label>
+                      <input type="senha" class="form-control" id="senha">
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+           </div>
         </div>
         <div class="banner-login">
-            
+            <img src="Images/cardiogram.png" alt="Coração">
+            <h2>Health Track</h2>
         </div>
     </div>
+    <script src="Plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="Plugins/fontawesome/js/all.min.js"></script>
 </body>
 </html>
