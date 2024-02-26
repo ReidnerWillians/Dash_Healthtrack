@@ -1,4 +1,4 @@
-div.flex-dashboard{
+.flex-dashboard{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -13,6 +13,22 @@ div.flex-dashboard{
     background: #c9c9c9;
 }
 
+.sidebar .sidebar-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.sidebar-title img{
+    width: 70px;
+}
+
+.sidebar-title h2{
+    font-size: 20px;
+}
+
 .main{
     display: block;
     width: calc(100% - 300px);
@@ -21,6 +37,7 @@ div.flex-dashboard{
 
 .main .header{
     height: 80px;
-    background-color: blue;
+    background-color: #f3e7e7;
     width: 100%;
+    border-bottom: 1px solid gray;
 }
