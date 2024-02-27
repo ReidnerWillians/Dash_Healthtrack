@@ -1,4 +1,4 @@
-.flex-dashboard{
+nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -6,73 +6,56 @@
     width: 250px;
     padding: 10px 14px;   
     background-color: #87887e;
+    border: 2px solid red;
 }
 
-.flex-dashboard .sidebar{
+nav .logo-name{
     display: flex;
     align-items: center;
+    border: 2px solid blue;
 }
 
-.flex-dashboard .sidebar-title{
+nav .logo-image{
     display: flex;
     justify-content: center;
     min-width: 45px;
+    border: 2px solid green;
 }
 
-.flex-dashboard .sidebar-title img{
+nav .logo-image img{
     width: 40px;
     object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid red;
 }
 
-.flex-dashboard .sidebar .logo-name{
-    font-size: 25px;
+nav .logo-name .logo_name{
+    font-size: 22px;
+    font-weight: 600;
     margin-left: 14px;
     color: black;
-
+    border: 2px solid orange;
 }
 
-/* .flex-dashboard .sidebar{
-    display: block;
-    height: 100%;
-    width: 300px;
-   
-
-.flex-dashboard .sidebar .sidebar-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 30px;
-    height: 90px; 
-}
-
-.flex-dashboard .sidebar .sidebar-title img{
-    width: 60px;
-    height: 60px;
-}
-
-.flex-dashboard .sidebar .sidebar-title h2{
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.sidebar .menu{
-    background-color: red;
-    margin-top: 10px;
+nav .menu-items{
+    margin-top: 40px;
     height: calc(100% - 90px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 2px solid lightskyblue;
 }
 
-.menu li{
+.menu-items li{
     list-style: none;
+    border: 2px solid red;
 }
 
-.menu li a{
+.menu-items li a{
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 50px;
     text-decoration: none;
-    
-} */
+    position: relative;
+    border: 2px solid black;
+}
