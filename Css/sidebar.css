@@ -41,17 +41,21 @@ nav .menu-items{
     justify-content: space-between;
 }
 
-.menu-items li{
+nav .menu-items li{
     list-style: none;
 }
 
-.menu-items li a{
+nav .menu-items li a{
     display: flex;
     align-items: center;
     height: 50px;
     text-decoration: none;
+    border: 1px solid red;
 } 
 
-.menu-items li a i{
+nav .menu-items li a i{
     border: 2px solid red;
 }
+
+
+
